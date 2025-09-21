@@ -31,8 +31,7 @@ export function LiveSessionPage() {
     title: "Licensed Clinical Psychologist",
     experience: "8 years experience",
     specialties: ["Anxiety", "Depression", "Trauma"],
-    avatar:
-      "https://images.unsplash.com/photo-1594824720379-ab5d7ad86e3a?w=150&h=150&fit=crop&crop=face",
+    avatar: "/doctorimg3.jpg",
     rating: 4.9,
   };
 
@@ -67,6 +66,22 @@ export function LiveSessionPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-lavender-50 via-sky-50 to-mint-50 dark:bg-gradient-to-br dark:from-slate-900 dark:via-violet-950 dark:to-slate-900 p-4">
       <div className="max-w-6xl mx-auto">
+        {/* Logo Header */}
+        <div className="flex items-center justify-center mb-4">
+          <div className="flex items-center gap-3">
+            <div className="w-8 h-8 flex items-center justify-center bg-gradient-to-br from-lavender-100 to-sky-100 dark:from-lavender-900/30 dark:to-sky-900/30 rounded-lg shadow-md">
+              <img
+                src="/depth-4--frame-0.svg"
+                alt="Auricle Logo"
+                className="w-5 h-5"
+              />
+            </div>
+            <h1 className="text-lg font-bold bg-gradient-to-r from-lavender-600 via-sky-500 to-teal-500 dark:from-violet-400 dark:via-cyan-400 dark:to-emerald-400 bg-clip-text text-transparent">
+              Auricle
+            </h1>
+          </div>
+        </div>
+
         {/* Header */}
         <div className="flex items-center justify-between mb-6">
           <div className="flex items-center space-x-4">

@@ -14,17 +14,20 @@ A modern, gradient-based frontend application for Auricle, an AI-powered mental 
 ## 🎨 Design System
 
 ### Color Palette
+
 - **Lavender**: `#a06eff` to `#f8f7ff` - Primary therapeutic color
-- **Mint**: `#14b8a6` to `#f0fdfa` - Calming accent color  
+- **Mint**: `#14b8a6` to `#f0fdfa` - Calming accent color
 - **Sky Blue**: `#0ea5e9` to `#f0f9ff` - Trust and clarity
 - **Teal**: `#14b8a6` to `#f0fdfa` - Balance and harmony
 
 ### Typography
+
 - **Font**: Inter (Google Fonts)
 - **Headings**: Bold gradient text effects
 - **Body**: Clean, readable spacing with proper contrast
 
 ### Components
+
 - **Rounded Corners**: 2xl border radius for soft, friendly appearance
 - **Glassmorphism**: Translucent backgrounds with backdrop blur
 - **Hover Effects**: Gentle scale and glow animations
@@ -33,6 +36,7 @@ A modern, gradient-based frontend application for Auricle, an AI-powered mental 
 ## 📱 Pages Overview
 
 ### 1. Landing Page (`/`)
+
 - Hero section with gradient background
 - Headline introducing Auricle as AI-powered therapy
 - Call-to-action button and demo preview
@@ -40,6 +44,7 @@ A modern, gradient-based frontend application for Auricle, an AI-powered mental 
 - Social proof with user avatars and ratings
 
 ### 2. Choose Your Therapist (`/therapists`)
+
 - Grid layout with therapist profile cards
 - Therapist specialties and communication styles
 - Hover effects with gradient border glow
@@ -47,6 +52,7 @@ A modern, gradient-based frontend application for Auricle, an AI-powered mental 
 - Continue button activation
 
 ### 3. Live Session (`/session`)
+
 - Large centered video frame (60% screen coverage)
 - Real-time subtitles area with therapist dialogue
 - Microphone toggle and end session controls
@@ -54,6 +60,7 @@ A modern, gradient-based frontend application for Auricle, an AI-powered mental 
 - Important disclaimer footer
 
 ### 4. Session Summary (`/summary`)
+
 - Session completion celebration
 - Progress indicators and mood ratings
 - Key highlights from the session
@@ -73,26 +80,30 @@ A modern, gradient-based frontend application for Auricle, an AI-powered mental 
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Node.js 16+ and npm (or yarn/pnpm)
 - Modern web browser with ES2020 support
 
 ### Installation
 
 1. **Navigate to the project directory**
+
    ```bash
    cd Auricle
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    # or
    yarn install
-   # or 
+   # or
    pnpm install
    ```
 
 3. **Start the development server**
+
    ```bash
    npm run dev
    # or
@@ -111,7 +122,7 @@ A modern, gradient-based frontend application for Auricle, an AI-powered mental 
 npm run build
 # or
 yarn build
-# or 
+# or
 pnpm build
 ```
 
@@ -127,6 +138,7 @@ The built application will be in the `dist` folder, ready for deployment.
 ## 🔧 Development
 
 ### Project Structure
+
 ```
 src/
 ├── components/          # Reusable UI components
@@ -135,7 +147,7 @@ src/
 │   └── theme-toggle.tsx
 ├── pages/              # Main application pages
 │   ├── LandingPage.tsx
-│   ├── ChooseTherapistPage.tsx  
+│   ├── ChooseTherapistPage.tsx
 │   ├── LiveSessionPage.tsx
 │   └── SessionSummaryPage.tsx
 ├── lib/                # Utility functions
@@ -148,6 +160,7 @@ src/
 ### Customization
 
 The design system is highly customizable through:
+
 - **Tailwind Config**: Modify colors, gradients, and animations in `tailwind.config.js`
 - **CSS Variables**: Adjust theme colors in `src/index.css`
 - **Component Variants**: Extend button and card styles in respective component files
@@ -155,6 +168,7 @@ The design system is highly customizable through:
 ## 🌙 Theme Support
 
 Auricle includes comprehensive dark/light mode support:
+
 - Automatic system preference detection
 - Manual toggle with persistent storage
 - Smooth transitions between themes
@@ -163,6 +177,7 @@ Auricle includes comprehensive dark/light mode support:
 ## ⚠️ Important Disclaimers
 
 This is a demonstration application for UI/UX purposes. The app includes appropriate disclaimers that:
+
 - Auricle is not a licensed therapist
 - Users experiencing crisis should seek immediate professional help
 - Emergency contact information is prominently displayed
